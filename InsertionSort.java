@@ -1,3 +1,8 @@
+/**
+Worst case: O(n^2)
+Best case: O(n);
+Average: O(n^2);
+**/
 private static int[] insertionSort(int[] inPut) {
 	for(int j = 1; j < inPut.length; j++) {
 		int key = inPut[j];
